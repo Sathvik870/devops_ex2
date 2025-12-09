@@ -15,7 +15,7 @@ function addTask() {
     span.className = 'task-text';
     span.textContent = taskText;
     span.addEventListener('click', toggleTask);
-
+    //kavin
     const deleteBtn = document.createElement('button');
     deleteBtn.className = 'delete-btn';
     deleteBtn.textContent = 'Delete';
