@@ -24,7 +24,7 @@ function addTask() {
     li.appendChild(span);
     li.appendChild(deleteBtn);
     taskList.appendChild(li);
-
+//simple one
     taskInput.value = '';
 }
 
